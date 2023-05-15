@@ -10,7 +10,7 @@ In programming, data refers to the information that is used and manipulated by a
 
 Variables are used to store and manipulate data in a program. They can be thought of as containers that hold a particular value. When you define a variable, you give it a name, and assign a value to it using the equals sign (=). For example, to create a variable called `x` that holds the value `5`, you would write:
 
-```
+```python
 x = 5
 
 ```
@@ -26,7 +26,7 @@ Python has several built-in data types that can be used to store different kinds
 
 To specify the data type of a variable, you can use a type hint. Type hints are annotations that tell Python what type a variable should be. For example, to specify that a variable `x` should be an integer, you would write:
 
-```
+```python
 x: int = 5
 
 ```
@@ -48,7 +48,7 @@ In Python, you can perform various operations between different variables. Some 
 
 Here are some examples:
 
-```
+```python
 # Addition
 x = 5
 y = 3
@@ -91,7 +91,7 @@ By using these operations, you can perform complex calculations and manipulate d
 
 In Python, you can also perform some operations between string data. Here are some examples:
 
-```
+```python
 # Concatenation (+)
 str1 = "Hello"
 str2 = "world"
@@ -118,7 +118,7 @@ Note that you cannot perform mathematical operations like addition or subtractio
 
 You can convert a variable from one data type to another using type conversion functions. The most common type conversion functions in Python are `int()`, `float()`, `str()`, and `bool()`. Here are some examples:
 
-```
+```python
 # Converting a string to an integer
 x = "5"
 y = int(x)
